@@ -46,22 +46,22 @@
     <section class="cover" data-carousel="Image" aria-label="Profile images" aria-roledescription="carousel">
       <div class="slides">
         <!-- Replace the sources and alt text with your two uploaded images. -->
-        <!-- <div class="slide" role="group" aria-roledescription="slide" aria-label="1 of 2">
+        <div class="slide" role="group" aria-roledescription="slide" aria-label="1 of 2">
           <img src="assets/Image.jpeg" alt="Cover image of Satwiki" width="1440" height="540" fetchpriority="high">
-        </div> -->
+        </div>
         <div class="slide" role="group" aria-roledescription="slide" aria-label="2 of 2">
           <img src="assets/Image2.JPG" alt="Satwiki by the Golden Gate Bridge" width="1440" height="540">
         </div>
       </div>
       <span class="swipe-hint" aria-hidden="true" hidden>Swipe or drag &harr;</span>
-      <!-- <div class="carousel-controls" hidden>
+      <div class="carousel-controls" hidden>
         <button class="icon-button previous" type="button" aria-label="Previous image"><svg aria-hidden="true"><use href="#arrow"/></svg></button>
         <div class="slide-dots" aria-label="Choose an image">
           <button type="button" aria-label="Show image 1" aria-pressed="true"></button>
           <button type="button" aria-label="Show image 2" aria-pressed="false"></button>
         </div>
         <button class="icon-button next" type="button" aria-label="Next image"><svg aria-hidden="true"><use href="#arrow"/></svg></button>
-      </div> -->
+      </div>
       <span class="sr-only" id="slide-status" role="status" aria-live="polite" aria-atomic="true"></span>
     </section>
   </div>
@@ -137,7 +137,12 @@
               <span class="company-detail">Hyderabad, India</span>
             </p>
             <h3>Senior Consultant | Azure Cloud & AI</h3>
-            <p>[ Previous roles: Consultant I & II ]</p>
+            <p class="progression-label tiny-label">Career progression</p>
+            <ol class="role-progression" aria-label="Microsoft career progression" role="list">
+              <li><span class="progression-badge">Consultant I</span></li>
+              <li><span class="progression-arrow handwritten" aria-hidden="true">&rarr;</span><span class="progression-badge">Consultant II</span></li>
+              <li><span class="progression-arrow handwritten" aria-hidden="true">&rarr;</span><span class="progression-badge is-current" aria-current="step">Senior Consultant</span></li>
+            </ol>
             <p>1. Led & Owned Agentic AI engagements execution and production rollout for Microsoft's enterprise customers, resulting into AI-augmented operational efficiency, reduced knowledge search time on private data, enhanced user experience with AI augmented workflows and tools and contributing ACR generation for Microsoft.</p>
 
             <p>2. Led a cross-functional team of 7 in an engagement contributing into ~$150k/month in platform revenue for Microsoft, owning the solution from design through production release.</p>
@@ -147,7 +152,7 @@
             <p>4. Led a complex agentic AI engagement over 6 months, aligning 3+ stakeholder groups through evolving scope and 5+ prototype iterations. Extended beyond core AI engineering to evolve into an unique Hybrid data science approach.</p>
 
             <p>5. Presented tech session on how LLMs are used to optimize business decusion at Microsoft Tech Connect 2026 (Seattle) to 200+ attendees.</p>
-            <div class="tags"><span>Generative AI apps</span><span>Agentic AI</span><span>Hybrid Data Science</span><span>Python</span><span>Microsoft Foundry</span><span>Azure Databricks</span><span>Data lake</span><span>SQL, CosmosDB, MongoDB, PostgreSQL</span><span>MLflow</span></div>
+            <div class="tags"><span>Generative AI apps</span><span>Agentic AI</span><span>Hybrid Data Science</span><span>Python</span><span>Microsoft Foundry</span><span>Azure Databricks</span><span>Data lake</span><span>SQL | CosmosDB | MongoDB | PostgreSQL</span><span>MLflow</span><span>Distributed Systems</span><span>Event-driven Systems</span><span>Microservices</span></div>
           </li>
           <li class="experience">
             <div class="timeline-dot" aria-hidden="true"></div>
@@ -157,13 +162,32 @@
               <span class="company-detail">USI &middot; Hyderabad, India</span>
             </p>
             <h3>Senior Analyst</h3>
-            <p>[ Previous roles: Analyst ]</p>
+            <p class="progression-label tiny-label">Career progression</p>
+            <ol class="role-progression" aria-label="Deloitte career progression" role="list">
+              <li><span class="progression-badge">Analyst</span></li>
+              <li><span class="progression-arrow handwritten" aria-hidden="true">&rarr;</span><span class="progression-badge">Senior Analyst</span></li>
+            </ol>
             <p>1. Delivered 2 large-scale production releases as part of cross-team efforts spanning multiple Deloitte teams, working through the full release lifecycle from planning to deployment.
  
 <p>2. Led a team to own an internal product and ran a bi-weekly production release cadence for ~8 months, ensuring consistent, on-schedule releases. Collaborated with product owners, architects and business users to propose and build new features and maintaining the product.
  
 <p>3. Contributed across 6+ enterprise products supporting customer onboarding and business performance metrics.</p>
             <div class="tags"><span>.Net</span><span>C#</span><span>Azure</span><span>Angular</span><span>Relational Databases</span><span>Team leading</span></div>
+          </li>
+          <li class="experience">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="experience-top"><span class="tiny-label">Oct, 2014 - Jan, 2017</span></div>
+            <h3>Earlier experience</h3>
+            <p class="company"><span>TCS</span><span aria-hidden="true">&middot;</span><span>Devathon (Crypsis Technologies)</span></p>
+            <p class="progression-label tiny-label">Career progression</p>
+            <ol class="role-progression" aria-label="Earlier career progression across two employers" role="list">
+              <li><span class="progression-badge">Trainee</span></li>
+              <li><span class="progression-arrow handwritten" aria-hidden="true">&rarr;</span><span class="progression-badge">ASE</span></li>
+              <li><span class="progression-arrow handwritten" aria-hidden="true">&rarr;</span><span class="progression-badge">SDE</span></li>
+            </ol>
+            <p>While I had the opportunity to start my career at TCS, progressing from a Graduate trainee to a software dev working on Insurance domain projects, I later moved to Devathon to contribute to software products for small and medium business across India. I also expanded my tech stack from Backend engineer to Full-stack engineer, and conducted several demonstrations for customers directly.</p>
+            <p>Both experience across the span of 2.5 years provided me with valuable insights and skills that have shaped my professional journey forward.</p>
+            <div class="tags"><span>C# | .NET</span><span>MVC</span><span>Angular</span><span>SQL Server</span><span>REST APIs</span></div>
           </li>
         </ol>
       </section>
@@ -235,7 +259,9 @@
     </aside>
   </main>
 
-  <footer class="page-width footer"><span>Stay Connected! Follow me on <a href="https://www.linkedin.com/in/satwiki-de-39a79a59/" target="_blank" rel="noopener noreferrer">LinkedIn</a><br>
-    <a href="#top">Back to top <span aria-hidden="true">&uarr;</span></a></footer>
+  <footer class="page-width footer">
+    <span>&copy; 2026 Copyright Reserved to Satwiki De</span>
+    <a href="#top">Back to top <span aria-hidden="true">&uarr;</span></a>
+  </footer>
 </body>
 </html>
